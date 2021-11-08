@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     if args.timeout:
         socket.setdefaulttimeout(args.timeout)
-    if isvalidhost(args.host) == True:
+    if isvalidhost(args.host):
         for index in range(50):
             try:
                 host = args.host
