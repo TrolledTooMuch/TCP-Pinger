@@ -1,4 +1,4 @@
-```python
+```
 usage: main.py [-h] -p  [-t]
 
 positional arguments:
