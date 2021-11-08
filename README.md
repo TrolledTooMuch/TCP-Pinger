@@ -7,5 +7,5 @@ positional arguments:
 optional arguments:
   -h, --help       show this help message and exit
   -p , --port      The TCP ping port.
-  -t , --timeout   Timeout of the ping connection.
+  -t , --timeout   Timeout of the socket connection.
  ```
