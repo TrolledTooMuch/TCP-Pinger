@@ -31,7 +31,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('host', metavar='', type=str, help='Host/IP the TCP ping goes to.')
     parser.add_argument('-p', '--port', metavar='', required=True, type=int, help='The TCP ping port.')
-    parser.add_argument('-t', '--timeout', metavar='', required=False, type=int, help='Timeout of the ping connection.')
+    parser.add_argument('-t', '--timeout', metavar='', required=False, type=int, help='Timeout of the socket connection.')
     args = parser.parse_args()
 
     if args.timeout:
